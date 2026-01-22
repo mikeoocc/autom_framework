@@ -13,7 +13,7 @@ public class CapabilitiesManager {
 
     // Construye las capabilities dependiendo de si es local o sauce labs.
     public static UiAutomator2Options buildOptions() {
-        return isSauceLabs() ? sauceOptions() : sauceOptions();
+        return isSauceLabs() ? sauceOptions() : localOptions();
     }
 
     // Construye las capabilities para sauce labs.
@@ -38,5 +38,27 @@ public class CapabilitiesManager {
         options.setCapability("sauce:options", sauce);
         return options;
     }
+
+    private static UiAutomator2Options localOptions (){
+
+        UiAutomator2Options options = new UiAutomator2Options();
+
+        options.setPlatformName("Android");
+        options.setAutomationName("UiAutomator2");
+        options.setDeviceName(Config.get("DEVICE_NAME_L"));
+        options.setUdid(Config.get("ANDROID_UDID"));
+        options.setApp(Config.get("LOCAL_APP"));
+        options.setCapability("appium:ignoreHiddenApiPolicyError", true);
+        options.setCapability("appium:noReset", true);          // tu móvil/emulador evitan pm clear
+        options.setCapability("appium:fullReset", false);
+        options.setCapability("appium:dontStopAppOnReset", false);
+        options.setCapability("appium:appWaitActivity", "*");
+        options.setCapability("appium:appWaitDuration", 30000);
+        options.setCapability("appium:appWaitForLaunch", true);
+
+        
+        return options;
+    }
+
 }
 

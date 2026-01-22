@@ -1,6 +1,7 @@
 C:\Users\mikeo\autom_framework\src\test\java\com\ecei\proyecto\appiumgluecode\BaseTest.java
 C:\Users\mikeo\autom_framework\src\test\java\com\ecei\proyecto\appiumgluecode\Hooks.java
-C:\Users\mikeo\autom_framework\src\test\java\com\ecei\proyecto\appiumgluecode\Test.java
-C:\Users\mikeo\autom_framework\src\test\java\com\ecei\proyecto\components\HeaderComponent.java
-C:\Users\mikeo\autom_framework\src\test\java\com\ecei\proyecto\runner\TestRunner.java
+C:\Users\mikeo\autom_framework\src\test\java\com\ecei\proyecto\appiumgluecode\ModalSteps.java
+C:\Users\mikeo\autom_framework\src\test\java\com\ecei\proyecto\runner\CucumberTest.java
+C:\Users\mikeo\autom_framework\src\test\java\com\ecei\proyecto\screens\AboutScreen.java
+C:\Users\mikeo\autom_framework\src\test\java\com\ecei\proyecto\screens\DrawingScreen.java
 C:\Users\mikeo\autom_framework\src\test\java\com\ecei\proyecto\screens\HomeScreen.java

@@ -1,6 +1,8 @@
 com\ecei\proyecto\manager\ServerManager.class
+com\ecei\proyecto\components\HeaderComponent.class
 com\ecei\proyecto\manager\CapabilitiesManager.class
 com\ecei\proyecto\manager\Config.class
 com\ecei\proyecto\pom\BaseComponent.class
 com\ecei\proyecto\pom\BaseScreen.class
 com\ecei\proyecto\manager\DriverManager.class
+com\ecei\proyecto\components\MenuComponent.class

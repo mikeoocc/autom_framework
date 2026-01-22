@@ -19,9 +19,14 @@ public class DriverManager {
         URL url;
 
         try {
-            url = CapabilitiesManager.isSauceLabs()
-                ? new URL(Config.get("SAUCELABS_TEST_URL"))
-                : new URL(ServerManager.getUrl());
+
+            if (CapabilitiesManager.isSauceLabs()) {
+                url = new URL(Config.get("SAUCELABS_TEST_URL"));
+            } else {
+                ServerManager.start();
+                url = new URL(ServerManager.getUrl());
+            }
+
         } catch (MalformedURLException e) {
             throw new IllegalStateException("Invalid Appium URL", e);
         }
@@ -41,5 +46,9 @@ public class DriverManager {
             driver.quit();
             DRIVER.remove();
         }
+        if (!CapabilitiesManager.isSauceLabs()) {
+            ServerManager.stop();
+        }
     }
+
 }
