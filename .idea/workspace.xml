@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aa01bc4-ae6e-47b6-bbf0-9b50f3fbd6ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/manager/CapabilitiesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/manager/CapabilitiesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/manager/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/manager/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/appiumgluecode/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/appiumgluecode/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/screens/DrawingScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/screens/DrawingScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ecei.proyecto.runner.CucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ecei.proyecto.runner.CucumberTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ecei.proyecto.runner.CucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ecei.proyecto.runner.CucumberTest.txt" afterDir="false" />
-    </list>
+    <list default="true" id="2aa01bc4-ae6e-47b6-bbf0-9b50f3fbd6ba" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
