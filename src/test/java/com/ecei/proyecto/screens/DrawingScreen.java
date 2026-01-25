@@ -37,7 +37,7 @@ public class DrawingScreen extends BaseScreen {
 
         int eyeY = top + (int)(h * 0.40);
         int eyeOffsetX = (int)(w * 0.14);
-        int eyeSize = Math.max(6, (int)(w * 0.015)); // tamaño mínimo para que se vea
+        int eyeSize = Math.max(6, (int)(w * 0.015));
 
         strokeW3C(List.of(
                 new int[]{cx - eyeOffsetX, eyeY},
@@ -50,8 +50,8 @@ public class DrawingScreen extends BaseScreen {
         ), 180);
 
         int smileCy = top + (int)(h * 0.58);
-        int rx = (int)(w * 0.22);  // más ancha
-        int ry = (int)(h * 0.16);  // más curvada
+        int rx = (int)(w * 0.22);
+        int ry = (int)(h * 0.16);
 
         List<int[]> smile = new ArrayList<>();
         int points = 20;

@@ -5,45 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2aa01bc4-ae6e-47b6-bbf0-9b50f3fbd6ba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/components/HeaderComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/appiumgluecode/ModalSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/runner/CucumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/screens/AboutScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/screens/DrawingScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/01_test.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/02_drawTest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/manager/CapabilitiesManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/manager/CapabilitiesManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/manager/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/manager/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/pom/BaseComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/pom/BaseComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/pom/BaseScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/pom/BaseScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/appiumgluecode/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/appiumgluecode/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/manager/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/manager/Config.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/appiumgluecode/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/appiumgluecode/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/appiumgluecode/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/components/HeaderComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ecei/proyecto/components/MenuComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/runner/TestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/screens/HomeScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/screens/HomeScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ecei/proyecto/manager/CapabilitiesManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecei/proyecto/manager/CapabilitiesManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ecei/proyecto/manager/DriverManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecei/proyecto/manager/DriverManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ecei/proyecto/pom/BaseComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecei/proyecto/pom/BaseComponent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ecei/proyecto/pom/BaseScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ecei/proyecto/pom/BaseScreen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ecei.proyecto.runner.TestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ecei.proyecto.runner.TestRunner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ecei/proyecto/appiumgluecode/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ecei/proyecto/appiumgluecode/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ecei/proyecto/appiumgluecode/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ecei/proyecto/appiumgluecode/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ecei/proyecto/appiumgluecode/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ecei/proyecto/components/HeaderComponent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ecei/proyecto/runner/TestRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ecei/proyecto/screens/HomeScreen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ecei/proyecto/screens/HomeScreen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/screens/DrawingScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ecei/proyecto/screens/DrawingScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ecei.proyecto.runner.CucumberTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.ecei.proyecto.runner.CucumberTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.ecei.proyecto.runner.CucumberTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.ecei.proyecto.runner.CucumberTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,30 +45,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: drawTest.executor": "Run",
-    "Cucumber Java.Feature: test.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.TestRunner.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mikeo/autom_framework",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: drawTest.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: test.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mikeo/autom_framework&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mikeo\autom_framework\src\test" />
@@ -161,7 +132,6 @@
       <list>
         <item itemvalue="Cucumber Java.Feature: drawTest" />
         <item itemvalue="Cucumber Java.Feature: test" />
-        <item itemvalue="JUnit.CucumberTests" />
       </list>
     </recent_temporary>
   </component>

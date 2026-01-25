@@ -6,17 +6,14 @@ import java.util.HashMap;
 
 public class CapabilitiesManager {
 
-    // Verifica si es local o sauce labs.
     public static boolean isSauceLabs() {
         return "saucelabs".equalsIgnoreCase(Config.get("RUN_TARGET"));
     }
 
-    // Construye las capabilities dependiendo de si es local o sauce labs.
     public static UiAutomator2Options buildOptions() {
         return isSauceLabs() ? sauceOptions() : localOptions();
     }
 
-    // Construye las capabilities para sauce labs.
     private static UiAutomator2Options sauceOptions() {
         
         UiAutomator2Options options = new UiAutomator2Options();
@@ -24,7 +21,6 @@ public class CapabilitiesManager {
         options.setPlatformName(Config.get("PLATFORM_NAME"));
         options.setDeviceName(Config.get("DEVICE_NAME"));
         options.setPlatformVersion(Config.get("PLATFORM_VERSION"));
-        //options.setAutomationName(AutomationName.ANDROID_UIAUTOMATOR2);
         options.setAutomationName(Config.get("AUTOMATION_NAME"));
         options.setApp(Config.get("SAUCE_APP"));
         
@@ -49,7 +45,7 @@ public class CapabilitiesManager {
         options.setUdid(Config.get("ANDROID_UDID"));
         options.setApp(Config.get("LOCAL_APP"));
         options.setCapability("appium:ignoreHiddenApiPolicyError", true);
-        options.setCapability("appium:noReset", true);          // tu móvil/emulador evitan pm clear
+        options.setCapability("appium:noReset", true);
         options.setCapability("appium:fullReset", false);
         options.setCapability("appium:dontStopAppOnReset", false);
         options.setCapability("appium:appWaitActivity", "*");

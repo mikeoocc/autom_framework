@@ -17,7 +17,7 @@ public class Hooks {
     }
 
     @After
-    public void tearDown() throws InterruptedException {
+    public void tearDown() {
         System.out.println("El escenario " + numberOfCase + " ha terminado");
         DriverManager.quit();
     }
