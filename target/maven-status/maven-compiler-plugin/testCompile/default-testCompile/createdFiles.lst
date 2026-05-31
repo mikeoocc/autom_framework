@@ -2,6 +2,7 @@ com\ecei\proyecto\screens\AboutScreen.class
 com\ecei\proyecto\screens\HomeScreen.class
 com\ecei\proyecto\screens\DrawingScreen.class
 com\ecei\proyecto\appiumgluecode\Hooks.class
+com\ecei\proyecto\reporting\DashboardReporter.class
 com\ecei\proyecto\appiumgluecode\BaseTest.class
 com\ecei\proyecto\appiumgluecode\ModalSteps.class
 com\ecei\proyecto\runner\CucumberTest.class

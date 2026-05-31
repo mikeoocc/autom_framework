@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: com.ecei.proyecto.runner.CucumberTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 44.71 s -- in com.ecei.proyecto.runner.CucumberTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 22.87 s <<< FAILURE! -- in com.ecei.proyecto.runner.CucumberTest
+Acceder a about.Acceder a la screen "About" -- Time elapsed: 12.74 s <<< ERROR!
+java.lang.RuntimeException: Fallo forzado para prueba
+	at com.ecei.proyecto.appiumgluecode.ModalSteps.elUsuarioEstaEnHome(ModalSteps.java:14)
+	at ✽.El usuario esta en Home(file:///C:/Users/mikeo/autom_framework/src/test/resources/features/01_test.feature:3)
+
+Drawing Feature.Acceder a la screen "Drawing" y dibujar una cara sonriente -- Time elapsed: 9.172 s <<< ERROR!
+java.lang.RuntimeException: Fallo forzado para prueba
+	at com.ecei.proyecto.appiumgluecode.ModalSteps.elUsuarioEstaEnHome(ModalSteps.java:14)
+	at ✽.El usuario esta en Home(file:///C:/Users/mikeo/autom_framework/src/test/resources/features/02_drawTest.feature:3)
+

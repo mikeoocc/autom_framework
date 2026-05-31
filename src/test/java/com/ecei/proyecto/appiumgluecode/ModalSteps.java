@@ -10,7 +10,8 @@ public class ModalSteps extends BaseTest {
 
     @Given("El usuario esta en Home")
     public void elUsuarioEstaEnHome() {
-        Assert.assertTrue(home().isDisplayed());
+        //Assert.assertTrue(home().isDisplayed());
+        throw new RuntimeException("Fallo forzado para prueba");
     }
 
     @When("Abre el Menu y entra en About")

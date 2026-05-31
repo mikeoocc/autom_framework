@@ -7,7 +7,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = {"com.ecei.proyecto.appiumgluecode"},
-        plugin = {"pretty", "html:target/cucumber-report.html"},
+        plugin = {"pretty", "html:target/cucumber-report.html", "com.ecei.proyecto.reporting.DashboardReporter"},
         monochrome = true
 )
 public class CucumberTest {
